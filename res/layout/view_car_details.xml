@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ImageView 
+        
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+android:id="@+id/selected_car"
+android:src="@drawable/car"
+        />
+
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NAME: "
+        android:textColor="@android:color/white"
+        />
+  
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:id="@+id/name"        
+        />
+  <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:text="PRICE:"
+		android:textColor="@android:color/white"
+
+        />
+  <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:id="@+id/price"        
+        />
+  <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Top Speed: "
+        android:textColor="@android:color/white"
+        />
+  
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:id="@+id/topspeed"        
+        />
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fuel Consumption: "
+        android:textColor="@android:color/white"
+        />
+  
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:id="@+id/fuelCons"        
+        />
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Torque: "
+        android:textColor="@android:color/white"
+        />
+  
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:id="@+id/torque"        
+        />
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Power: "
+        android:textColor="@android:color/white"
+        />
+  
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:id="@+id/power"        
+        />
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Length: "
+        android:textColor="@android:color/white"
+        />
+  
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:id="@+id/length"        
+        />
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Width: "
+        android:textColor="@android:color/white"
+        />
+  
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:id="@+id/width"        
+        />
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Height: "
+        android:textColor="@android:color/white"
+        />
+  
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:id="@+id/height"        
+        />
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weight: "
+        android:textColor="@android:color/white"
+        />
+  
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:id="@+id/weight"        
+        />
+    
+</LinearLayout>
+</ScrollView>

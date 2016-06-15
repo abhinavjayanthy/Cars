@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cars</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="price">PRICE</string>
+    <string-array name="price_range">
+         <item>-Select price Range-</item>
+        <item>1500000 to 2000000</item>
+        <item>2000000 to 3000000</item>
+        <item>3000000 to 4000000</item>
+        <item>4000000 to 5000000</item>
+        <item>5000000 to 6000000</item>
+    </string-array>
+    
+ <string-array name="make_of_cars">
+        <item>-Select Make-</item>
+        <item>Acura</item>
+        <item>Audi</item>
+        <item>BMW</item>
+        <item>Bugatti</item>
+        <item>Ferrari</item>
+        <item>Ford</item>
+        <item>Honda</item>
+        <item>Lamborghini</item>
+        <item>Porsche</item>
+        
+    </string-array>
+    <string-array name="class_of_cars">
+       <item>-Select Class-</item>
+       	<item>Convertable</item>
+       	<item>Coupe</item>
+        <item>Luxury</item>
+        <item>Sedan</item>
+        <item>Sports Utility</item>
+        <item>Super</item>
+        
+    </string-array>
+    
+</resources>
